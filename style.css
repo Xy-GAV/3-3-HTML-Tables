@@ -1,0 +1,41 @@
+
+.carousel{
+    width:100%;
+    overflow-x: auto;
+    margin: 3em auto;
+    display:flex;
+    gap: 1em;
+    scroll-behavior: smooth !important;
+}
+
+.carousel::-webkit-scrollbar{
+    display:none
+}
+
+.carousel::scroll-button(right){
+    content:'forth';
+    border:none;
+    background-color:black;
+    color:white;
+
+}
+
+.carousel::scroll-button(left){
+    content:'back';
+    border:none;
+    background-color:black;
+    color:white;
+
+}
+
+
+
+.page{
+    flex: 0 0 30vw;
+    height: 80vh;
+    background-color: gray;
+    padding: 1em;
+    border-radius: .5em;
+    text-align:center;
+    align-content: center;
+}
